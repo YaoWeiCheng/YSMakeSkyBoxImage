@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D694C575202B45D600C9D9A3 /* skybox2.png in Resources */ = {isa = PBXBuildFile; fileRef = D694C573202B45D600C9D9A3 /* skybox2.png */; };
+		D694C576202B45D600C9D9A3 /* skybox3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D694C574202B45D600C9D9A3 /* skybox3.jpg */; };
 		D6CD376820283AE2003A82F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD376720283AE2003A82F0 /* main.m */; };
 		D6CD376B20283AE2003A82F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD376A20283AE2003A82F0 /* AppDelegate.m */; };
 		D6CD376E20283AE2003A82F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD376D20283AE2003A82F0 /* ViewController.m */; };
@@ -15,6 +17,7 @@
 		D6CD377620283AE2003A82F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CD377420283AE2003A82F0 /* LaunchScreen.storyboard */; };
 		D6CD378120283AE2003A82F0 /* MakeSkyBoxImageCCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD378020283AE2003A82F0 /* MakeSkyBoxImageCCTests.m */; };
 		D6CD378C20283AE2003A82F0 /* MakeSkyBoxImageCCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD378B20283AE2003A82F0 /* MakeSkyBoxImageCCUITests.m */; };
+		D6CD379A20283C78003A82F0 /* skybox1.png in Resources */ = {isa = PBXBuildFile; fileRef = D6CD379920283C78003A82F0 /* skybox1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D694C573202B45D600C9D9A3 /* skybox2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox2.png; sourceTree = "<group>"; };
+		D694C574202B45D600C9D9A3 /* skybox3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skybox3.jpg; sourceTree = "<group>"; };
 		D6CD376320283AE2003A82F0 /* MakeSkyBoxImageCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeSkyBoxImageCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CD376720283AE2003A82F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6CD376920283AE2003A82F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,7 @@
 		D6CD378720283AE2003A82F0 /* MakeSkyBoxImageCCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeSkyBoxImageCCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CD378B20283AE2003A82F0 /* MakeSkyBoxImageCCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakeSkyBoxImageCCUITests.m; sourceTree = "<group>"; };
 		D6CD378D20283AE2003A82F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CD379920283C78003A82F0 /* skybox1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				D6CD376A20283AE2003A82F0 /* AppDelegate.m */,
 				D6CD376C20283AE2003A82F0 /* ViewController.h */,
 				D6CD376D20283AE2003A82F0 /* ViewController.m */,
+				D6CD379920283C78003A82F0 /* skybox1.png */,
+				D694C573202B45D600C9D9A3 /* skybox2.png */,
+				D694C574202B45D600C9D9A3 /* skybox3.jpg */,
 				D6CD376F20283AE2003A82F0 /* Main.storyboard */,
 				D6CD377220283AE2003A82F0 /* Assets.xcassets */,
 				D6CD377420283AE2003A82F0 /* LaunchScreen.storyboard */,
@@ -247,6 +256,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6CD377620283AE2003A82F0 /* LaunchScreen.storyboard in Resources */,
+				D6CD379A20283C78003A82F0 /* skybox1.png in Resources */,
+				D694C575202B45D600C9D9A3 /* skybox2.png in Resources */,
+				D694C576202B45D600C9D9A3 /* skybox3.jpg in Resources */,
 				D6CD377320283AE2003A82F0 /* Assets.xcassets in Resources */,
 				D6CD377120283AE2003A82F0 /* Main.storyboard in Resources */,
 			);
@@ -509,6 +521,7 @@
 				D6CD379220283AE2003A82F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6CD379320283AE2003A82F0 /* Build configuration list for PBXNativeTarget "MakeSkyBoxImageCCTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +530,7 @@
 				D6CD379520283AE2003A82F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6CD379620283AE2003A82F0 /* Build configuration list for PBXNativeTarget "MakeSkyBoxImageCCUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +539,7 @@
 				D6CD379820283AE2003A82F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
